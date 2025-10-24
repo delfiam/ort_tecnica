@@ -1,0 +1,27 @@
+{
+  "name": "ort_tecnica",
+  "version": "1.0.0",
+  "description": "ejercicio1",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "watch": "node --watch .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delfiam/ort_tecnica.git"
+  },
+  "author": "Delfina Munich",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delfiam/ort_tecnica/issues"
+  },
+  "homepage": "https://github.com/delfiam/ort_tecnica#readme"
+}
