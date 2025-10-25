@@ -1,9 +1,3 @@
-/**Crea una aplicación simple en React Native que muestre una lista de productos.
-Requerimientos
-● Utilizar FlatList para mostrar una lista de productos con nombre y precio.
-● Un botón para agregar un nuevo producto (con datos aleatorios).
-● Un botón en cada producto para eliminarlo.
-Extra: Usa AsyncStorage para persistir los productos cuando se cierre la app. */
 import React, {useState, useEffect} from "react";
 import { StyleSheet, Text, View, FlatList, Button } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
